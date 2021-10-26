@@ -1,5 +1,6 @@
 # Houseplants
 Houseplants for sale
+
 #Сборка проекта выполнена на Gulp
 
 В проекте используются:
@@ -10,6 +11,7 @@ Houseplants for sale
 - bootstrap;
 - JS;
 - jquery
+
 Как запустить проект:
 
 - скачать репозиторий
