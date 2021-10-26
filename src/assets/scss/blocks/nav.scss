@@ -1,0 +1,31 @@
+.nav {
+	width: 1168px;
+	position: absolute;
+	top: 40px;
+	left: 56px;
+	z-index: $z-index-nav;
+}
+.logo {
+	width: 36px;
+	height: 36px;
+	background-color: $primary;
+	clip-path: polygon(50% 0, 100% 30%, 100% 70%, 50% 100%, 0 70%, 0 30%);
+		&__item {
+
+		}
+}
+.nav__list {
+	display: flex;
+	justify-content: flex-end;
+}
+.fa-search {
+	color: #333333;
+	margin-right: 45px;
+}
+.fa-shopping-cart {
+	color: #333333;
+	margin-right: 8px;
+}
+.title {
+	color: #000;
+}

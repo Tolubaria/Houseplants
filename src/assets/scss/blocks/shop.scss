@@ -1,0 +1,14 @@
+.shop {
+	width: 1168px;
+	background: #F3F4F6;
+	&__left {
+		width: 50%;
+		margin: 97px 88px;	
+	}
+	&__right {
+		width: 50%;
+	}
+	&__title {
+		@include title;
+	}
+}

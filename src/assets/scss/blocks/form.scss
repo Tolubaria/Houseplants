@@ -1,0 +1,72 @@
+.sign-up {
+	margin-top: 100px;
+}
+.form {
+	&__auth {
+		 max-width: 28rem;
+	}
+}
+
+.form__group {
+	margin-bottom: 1.5rem;
+}
+
+.form__control {
+	display: block;
+	width: 100%;
+	padding: .5rem 0 .75rem;
+
+	background: none;
+	border: none;
+	border-bottom: 1px solid #3F3F3F;
+	border-radius: 0;
+	box-shadow: none;
+
+	font-family: inherit;
+	font-size: 1.4rem;
+
+	&::placeholder {
+		 color: rgba($textprimary, .2);
+	}
+
+	&:focus + .form__line {
+		 width: 100%;
+	}
+}
+
+.form__line {
+	width: 0;
+	height: 1px;
+
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 1;
+
+	transition: width .2s linear;
+}
+
+.form__footer {
+	&__center {
+		 text-align: center;
+	}
+}
+
+.form__footer-list {
+	font-size: 1.2rem;
+	line-height: 1.2;
+	a {
+		color: $primary;
+	}
+}
+.form-floating > .form-control:focus, .form-floating > .form-control:not(:placeholder-shown) {
+	width: 234px;
+	height: 32px;
+}
+.subscribe {
+	@include workSans;
+	font-size: 12px;
+	line-height: 16px;
+	color: #000000;
+	opacity: 0.5;
+}

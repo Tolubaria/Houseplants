@@ -1,0 +1,40 @@
+.header {
+	width: 1280px;
+	padding-bottom: 140px;
+}
+.head {
+	width: 523px;
+	margin-top: 186px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 68px;
+	line-height: 83px;
+	color: $primary;
+	text-align: left;
+}
+.head-text {
+	width: 493px;
+	text-align: left;
+	font-size: 18px;
+	line-height: 32px;
+	@include text;
+}
+.carousel-caption {
+	position: relative;
+	left: 77px;
+}
+.carousel-control-next, .carousel-control-prev {
+	position: relative;
+	width: 286px;
+	height: 160px;
+	background-color: $primary;
+}
+.arrow {
+	top:500px;
+	left: 700px;
+}
+.carousel {
+	top: -8px;
+	left: -8px;
+}

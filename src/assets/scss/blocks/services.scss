@@ -1,0 +1,25 @@
+.services {
+	width: 1168px;
+	&__card {
+		width: 268px;
+		padding-bottom: 21px;
+		padding-left: 16px;
+		padding-right: 16px;
+		&__body {
+			margin-top: 22px;
+			margin-bottom: 16px;
+			width: 137px;
+			height: 49px;
+		}
+		&__title {
+			color: $primary;
+			// @include text;
+		}
+		&__text {
+			color: black;
+		}
+	}
+}
+.card-img {
+	width: 48px;
+}

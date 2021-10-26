@@ -1,0 +1,36 @@
+.btn {
+	width: 111px;
+	height: 36px;
+		&__white {
+			background-color: #fff;
+			color: $primary;
+		}
+		&__grin {
+			background-color: $primary;
+			color: #fff;
+		}
+		&__cheaper {
+			width: 130px;
+			height: 31px;
+			background-color: #fff;
+			border-color: #e0e0e0;
+			&__text {
+				font-size: 12px;
+			}
+		}
+		&__visit {
+			width: 152px;
+			height: 40px;
+			&:hover {
+				background-color: darken($primary, 30%);
+			}
+		}
+		&__footer {
+			width: 51px;
+			height: 22px;
+		}
+}
+.sign {
+	width: 400px;
+	background-color: $primary;
+}

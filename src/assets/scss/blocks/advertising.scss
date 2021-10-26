@@ -1,0 +1,28 @@
+.advertising {
+	width: 1168px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	&__left {
+		max-width: 522px;
+		margin-right: 84px;
+	}
+	&__right {
+		margin-right: -90px;
+	}
+	&__title {
+		@include title;
+	}
+	&__text {
+		margin-top: 16px;
+		@include text;
+	}
+	&__bottom {
+		margin-top: 74px;
+	}
+	&__img {
+		min-width: 568px;
+	}
+	&__img2 {
+		width: 513px;
+	}
+}

@@ -1,0 +1,32 @@
+.footer {
+	width: 946px;
+	&__box {
+		margin-top: 60px;
+	}
+}
+.plantku {
+	@include poppins;
+}
+.medium-span {
+	@include workSans500;
+}
+.dark {
+	color: #000000;
+}
+.text-small {
+	max-width: 282px;
+	@include workSans;
+}
+.little-span {
+	@include workSans;
+	font-size: 14px;
+	line-height: 16px;
+	color: #000;
+}
+.span {
+	color: #000;
+}
+.form-floating>.form-control:focus, .form-floating>.form-control:not(:placeholder-shown) {
+	width: 135px;
+	height: 16px;
+}
