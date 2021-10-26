@@ -13,17 +13,17 @@ function toggleType() {
     }
 }
 
-let btn = document.querySelector(".btn");
-let toIntroduce = document.querySelector(".to-introduce");
-let toConfirm = document.querySelector(".to-confirm");
+// let btn = document.querySelector(".btn");
+// let toIntroduce = document.querySelector(".to-introduce");
+// let toConfirm = document.querySelector(".to-confirm");
 
-btn.onclick = function() {
-    if (toIntroduce.value == toConfirm.value) {
-        alert("You are welcome")
-    } 
-    else {
-        document.querySelector(".password-form").insertAdjacentHTML("beforeend", `<span class="alert" style='color:red'>
-            Нужно ввести одинаковые значения.
-            </span>`);
-    }
-};
+// btn.onclick = function() {
+//     if (toIntroduce.value == toConfirm.value) {
+//         alert("You are welcome")
+//     } 
+//     else {
+//         document.querySelector(".password-form").insertAdjacentHTML("beforeend", `<span class="alert" style='color:red'>
+//             Нужно ввести одинаковые значения.
+//             </span>`);
+//     }
+// };
