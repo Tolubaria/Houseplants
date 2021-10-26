@@ -4,9 +4,14 @@ Houseplants for sale
 
 В проекте используются:
 
-HTML;
-Reset.css;
-scss;
-bootstrap;
-JS;
-jquery
+- HTML;
+- Reset.css;
+- scss;
+- bootstrap;
+- JS;
+- jquery
+Как запустить проект:
+
+- скачать репозиторий
+- npm install
+- gulp
